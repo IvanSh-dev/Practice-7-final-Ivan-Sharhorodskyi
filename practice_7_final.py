@@ -39,7 +39,7 @@
 #   - середній бал по класу з кожного предмета (math, python, english);
 #   - ім'я студента з найвищим середнім балом (по трьох предметах).
 
-INPUT_FILE = "students.csv"
+INPUT_FILE = "../students.csv"
 OUTPUT_FILE = "result.txt"
 
 # TODO 1: відкрийте INPUT_FILE через with open(...) as f:
