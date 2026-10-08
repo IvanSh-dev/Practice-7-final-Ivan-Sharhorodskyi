@@ -13,8 +13,6 @@ with open(INPUT_FILE, "r", encoding="utf-8") as f:
 
     for line in f:
         line = line.strip()
-        if not line:
-            continue
 
         name, math, python, english = line.split(",")
 
@@ -26,7 +24,6 @@ with open(INPUT_FILE, "r", encoding="utf-8") as f:
         python_sum += python
         english_sum += english
         student_count += 1
-
         average = (math + python + english) / 3
 
         if average > best_average:
